@@ -39,6 +39,7 @@ jobs:
           /bin/bash -c "$(curl -fsSL \
           https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
           customtypeone_looppatches \
+          no_auth \
           algorithm_experiments \
           testflight_expiration_warning
 
